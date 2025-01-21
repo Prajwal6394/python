@@ -27,11 +27,19 @@
 
 # print('Done');
 
-print('Please enter your name');
+# print('Please enter your name');
 
-name = input();
+# name = input();
 
-if name:
-    print('Thank you for entering your name '+ name);
-else:    
-    print('You did not enter your name' );
+# if name:
+#     print('Thank you for entering your name '+ name);
+# else:    
+#     print('You did not enter your name' );
+
+name = '';
+
+while name != 'your name':
+    print('Please type your name');
+    name = input();
+
+print('Thank you!');
