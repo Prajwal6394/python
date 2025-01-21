@@ -10,7 +10,28 @@
 # age = input();
 # print('you will be ' + str(int(age) + 1) + ' in a year');
 
-i = 1
-for i in range(1, 11):
-    print(i)
-    i += 1
+
+
+# i = 1
+# for i in range(1, 11):
+#     print(i)
+#     i += 1
+
+
+# name = 'Prajwal';
+
+# if name == 'Praj1wal':
+#     print('Hello Prajwal');
+# else:
+#     print('Hello stranger');
+
+# print('Done');
+
+print('Please enter your name');
+
+name = input();
+
+if name:
+    print('Thank you for entering your name '+ name);
+else:    
+    print('You did not enter your name' );
