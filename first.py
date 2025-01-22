@@ -44,8 +44,8 @@
 
 # print('Thank you!');
 
-total = 5;
+# total = 5;
 
-for num in range(101, 102):
-    total = total + num;
-print(total);
+# for num in range(101, 102):
+#     total = total + num;
+# print(total);
