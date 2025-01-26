@@ -102,13 +102,34 @@
 # error handling
 
 
-def spam(divideBy):
-    try:
-        return 42 / divideBy;
-    except:
-        print('Error: Invalid argument');
+# def spam(divideBy):
+#     try:
+#         return 42 / divideBy;
+#     except:
+#         print('Error: Invalid argument');
 
-print(spam(2));
-print(spam(12));
-print(spam(0));
-print(spam(1));
+# print(spam(2));
+# print(spam(12));
+# print(spam(0));
+# print(spam(1));
+
+
+# print('How many cats do you have?');
+
+# numCats = input();
+# if int(numCats) >= 4:
+#     print('That is a lot of cats');
+# else:   
+#     print('That is not that many cats');
+
+# with error handling
+
+try:
+    print('How many cats do you have?');
+    numCats = input();
+    if int(numCats) >= 4:
+        print('That is a lot of cats');
+    else:   
+        print('That is not that many cats');
+except ValueError:
+    print('You did not enter a number');
