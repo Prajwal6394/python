@@ -50,8 +50,28 @@
 #     total = total + num;
 # print(total);
 
-def hello():
-    print('Hello');
-    print('How are you?');
+# def hello():
+#     print('Hello');
+#     print('How are you?');
 
-hello();
+# hello();
+
+# def call(name):
+#     print('Hello ' + name);
+
+def calculator(num1, num2, operator):
+    if operator == '+':
+        print(num1 + num2);
+    elif operator == '-':
+        print(num1 - num2);
+    elif operator == '*':
+        print(num1 * num2);
+    elif operator == '/':
+        print(num1 / num2);
+    else:
+        print('Invalid operator');
+
+input1 = input('Enter first number: ');
+input2 = input('Enter second number: ');
+input3 = input('Enter operator: ');
+calculator(int(input1), int(input2), input3);
