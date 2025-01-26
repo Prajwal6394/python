@@ -88,13 +88,27 @@
 
 # local scope cannnot be accessed from another local scope
 
-def spam():
-    eggs = 99;
-    bacon();
-    print(eggs);
+# def spam():
+#     eggs = 99;
+#     bacon();
+#     print(eggs);
 
-def bacon():
-    ham = 101;
-    eggs = 0;
+# def bacon():
+#     ham = 101;
+#     eggs = 0;
 
-spam();
+# spam();
+
+# error handling
+
+
+def spam(divideBy):
+    try:
+        return 42 / divideBy;
+    except ZeroDivisionError:
+        print('Error: Invalid argument');
+
+print(spam(2));
+print(spam(12));
+print(spam(0));
+print(spam(1));
