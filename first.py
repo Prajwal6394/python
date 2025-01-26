@@ -105,7 +105,7 @@
 def spam(divideBy):
     try:
         return 42 / divideBy;
-    except ZeroDivisionError:
+    except:
         print('Error: Invalid argument');
 
 print(spam(2));
