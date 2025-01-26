@@ -77,11 +77,24 @@
 # calculator(int(input1), int(input2), input3);
 
 
-hello = 10; # global variable
+# hello = 10; # global variable
 
-def hello():
-   hello = 5; # local variable
-   print(int(hello));
+# def hello():
+#    hello = 5; # local variable
+#    print(int(hello));
 
-hello();
-print(hello);
+# hello();
+# print(hello);
+
+# local scope cannnot be accessed from another local scope
+
+def spam():
+    eggs = 99;
+    bacon();
+    print(eggs);
+
+def bacon():
+    ham = 101;
+    eggs = 0;
+
+spam();
