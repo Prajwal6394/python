@@ -171,3 +171,6 @@ print(arrayInsideArray[1][1]);
 del arrayInsideArray[1];
 
 print(arrayInsideArray);
+
+res = 'howddy' in ['hello', 'hi', 'howdy', 'hey'];
+print(res);
