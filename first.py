@@ -167,3 +167,7 @@
 
 arrayInsideArray = [['cal', 'cat', 'bat'], ['rat', 'mat', 'fat'], ['sat', 'pat', 'hat']];
 print(arrayInsideArray[1][1]);
+
+del arrayInsideArray[1];
+
+print(arrayInsideArray);
