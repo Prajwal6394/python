@@ -172,5 +172,8 @@ del arrayInsideArray[1];
 
 print(arrayInsideArray);
 
-res = 'howddy' in ['hello', 'hi', 'howdy', 'hey'];
+res = 'howdy' in ['hello', 'hi', 'howdy', 'hey'];
 print(res);
+
+res2 = 'howsdy' not in ['hello', 'hi', 'howdy', 'hey'];
+print(res2);
