@@ -209,22 +209,28 @@
 # print(a);
 # print(b);
 
-spam = ['hello', 'hi', 'howdy', 'hey'];
+# spam = ['hello', 'hi', 'howdy', 'hey'];
 
-spam.append('yo');
+# spam.append('yo');
 
-print(spam);
+# print(spam);
 
-spam.insert(1, 'yo');
+# spam.insert(1, 'yo');
 
-print(spam);
+# print(spam);
 
-spam.remove('yo');
+# spam.remove('yo');
 
-print(spam);
+# print(spam);
 
-spam.sort();
+# spam.sort();
 
-spam.sort(reverse=True);
+# spam.sort(reverse=True);
 
-print(spam);
+# print(spam);
+
+
+list('hello');
+
+print(list('hello'));
+
