@@ -165,46 +165,66 @@
 # print(array[0:3]);
 
 
-arrayInsideArray = [['cal', 'cat', 'bat'], ['rat', 'mat', 'fat'], ['sat', 'pat', 'hat']];
-print(arrayInsideArray[1][1]);
+# arrayInsideArray = [['cal', 'cat', 'bat'], ['rat', 'mat', 'fat'], ['sat', 'pat', 'hat']];
+# print(arrayInsideArray[1][1]);
 
-del arrayInsideArray[1];
+# del arrayInsideArray[1];
 
-print(arrayInsideArray);
+# print(arrayInsideArray);
 
-res = 'howdy' in ['hello', 'hi', 'howdy', 'hey'];
-print(res);
+# res = 'howdy' in ['hello', 'hi', 'howdy', 'hey'];
+# print(res);
 
-res2 = 'howsdy' not in ['hello', 'hi', 'howdy', 'hey'];
-print(res2);
-
-
-for i in range(4):
-    print(i);
-
-for i in [0, 1, 2, 3]:
-    print(i);
-
-supplies = ['pens', 'staplers', 'flame-throwers', 'binders'];
-
-for i in range(len(supplies)):
-    print('Index ' + str(i) + ' in supplies is: ' + supplies[i]);
-
-cat = ['fat', 'orange', 'loud'];
-
-size = cat[0];
-color = cat[1];
-disposition = cat[2];
-
-print(size);
-
-size, color, disposition = cat;
+# res2 = 'howsdy' not in ['hello', 'hi', 'howdy', 'hey'];
+# print(res2);
 
 
-a = 'AAA';
-b = 'BBB';
+# for i in range(4):
+#     print(i);
 
-a, b = b, a;
+# for i in [0, 1, 2, 3]:
+#     print(i);
 
-print(a);
-print(b);
+# supplies = ['pens', 'staplers', 'flame-throwers', 'binders'];
+
+# for i in range(len(supplies)):
+#     print('Index ' + str(i) + ' in supplies is: ' + supplies[i]);
+
+# cat = ['fat', 'orange', 'loud'];
+
+# size = cat[0];
+# color = cat[1];
+# disposition = cat[2];
+
+# print(size);
+
+# size, color, disposition = cat;
+
+
+# a = 'AAA';
+# b = 'BBB';
+
+# a, b = b, a;
+
+# print(a);
+# print(b);
+
+spam = ['hello', 'hi', 'howdy', 'hey'];
+
+spam.append('yo');
+
+print(spam);
+
+spam.insert(1, 'yo');
+
+print(spam);
+
+spam.remove('yo');
+
+print(spam);
+
+spam.sort();
+
+spam.sort(reverse=True);
+
+print(spam);
